@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class TimeDifference
+{
+	public static void main(String[]args)
+	{
+		int clockInH=0, clockInM=0, clockOutH=0, clockOutM=0, clockInTot=0, clockOutTot=0, workedTot=0, workedH=0, workedM=0;
+        Scanner input=new Scanner(System.in);
+
+        System.out.print("Enter Data (HH mm HH mm): ");
+        clockInH=input.nextInt();	
+        clockInM=input.nextInt();	
+    	clockOutH=input.nextInt();	
+    	clockOutM=input.nextInt();
+    	
+        while(clockInH<0 || clockInH>23 || clockInM<0 || clockInM>59 || clockOutH<0 || clockOutH>23 || clockInM<0 || clockOutM>59 || clockInH>clockOutH || clockInH==clockOutH && clockInM>clockOutM)
+        {
+            System.out.println("invalid Data");
+            System.out.print("Enter Data (HH mm HH mm): ");
+            clockInH=input.nextInt();	
+            clockInM=input.nextInt();	
+    	    clockOutH=input.nextInt();	
+    	    clockOutM=input.nextInt();
+        }
+        
+        clockInTot=(clockInH*60)+clockInM;
+		clockOutTot=(clockOutH*60)+clockOutM;	
+
+		workedTot=clockOutTot-clockInTot;
+		workedH=workedTot/60;
+		workedM=workedTot%60;
+
+		System.out.println(workedH+"h"+workedM); 
+	}
+}
