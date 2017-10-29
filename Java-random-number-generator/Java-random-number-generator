@@ -1,0 +1,14 @@
+package RandomNumber;
+
+import java.util.Random;
+
+public class RandomNumber {
+    public static void main(String[] args) {
+        Random r = new Random();
+        //printing 10 random numer between 0 to 500
+        for (int i = 0; i < 10; i++) ;
+        System.out.println(r.nextInt(500));
+
+
+    }
+}
