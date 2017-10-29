@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class EvenOrOdd {
+    public static void main(String[] args) {
+        int a;
+        System.out.println("Enter a Number");
+
+        Scanner in=new Scanner(System.in);
+        a=in.nextInt();
+
+
+        if (a%2==0)
+            System.out.println("It's An Even Number");
+        else
+            System.out.println("It's An Odd Number");
+
+    }
+}
