@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 /**
  * NumberSorter.java
  * <P> This is a simple command line application which gets three comma (,)
