@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Random_Number",
+            "request": "launch",
+            "mainClass": "Random_Number",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Time_Difference_calc",
+            "request": "launch",
+            "mainClass": "Time_Difference_calc",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Time_Difference",
+            "request": "launch",
+            "mainClass": "Time_Difference",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rectangle_perimeter",
+            "request": "launch",
+            "mainClass": "Rectangle_perimeter",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square_Area",
+            "request": "launch",
+            "mainClass": "Square_Area",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square_perimeter",
+            "request": "launch",
+            "mainClass": "Square_perimeter",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sorter",
+            "request": "launch",
+            "mainClass": "Sorter",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circumference",
+            "request": "launch",
+            "mainClass": "Circumference",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircleArea",
+            "request": "launch",
+            "mainClass": "CircleArea",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiplication",
+            "request": "launch",
+            "mainClass": "Multiplication",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Difference",
+            "request": "launch",
+            "mainClass": "Difference",
+            "projectName": "Simple-Java-Projects_3ac92137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
