@@ -1,4 +1,5 @@
-public static void main(string args[]){
+public class Subtract{
+  public static void main(String[] args){
   scanner s=new scanner(System.in);
   System.out.print("Enter two numbers: ");
   int a,b;
@@ -7,3 +8,5 @@ public static void main(string args[]){
   int sub=a-b;
   System.out.println("The subtraction is: ",+sub);
 }
+}
+
